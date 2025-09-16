@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Результаты CIFAR-10 Classification</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        .highlight { background-color: #ffffcc; }
+    </style>
+</head>
+<body>
+    <h1>Сводная таблица результатов</h1>
+    <table border="1" class="dataframe table table-striped" id="results-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Epochs</th>
+      <th>Accuracy</th>
+      <th>Parameters</th>
+      <th>Training_Time</th>
+      <th>Improvement</th>
+      <th>Efficiency</th>
+      <th>Improvement_Rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baseline CNN</td>
+      <td>5</td>
+      <td>72.68</td>
+      <td>1.15</td>
+      <td>1.6</td>
+      <td>0.00</td>
+      <td>45.425000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Improved CNN</td>
+      <td>5</td>
+      <td>67.94</td>
+      <td>4.18</td>
+      <td>2.5</td>
+      <td>0.00</td>
+      <td>27.176000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Baseline CNN</td>
+      <td>25</td>
+      <td>81.93</td>
+      <td>1.15</td>
+      <td>8.2</td>
+      <td>9.25</td>
+      <td>9.991463</td>
+      <td>0.4625</td>
+    </tr>
+    <tr>
+      <td>Improved CNN</td>
+      <td>25</td>
+      <td>84.86</td>
+      <td>4.18</td>
+      <td>12.8</td>
+      <td>16.92</td>
+      <td>6.629687</td>
+      <td>0.8460</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+        
